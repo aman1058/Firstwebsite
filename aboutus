@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IndiaHealth</title>
+	<style>
+#header{
+     overflow:hidden;
+}
+#header1 {
+    
+    float:left;
+    padding:5px;
+}
+#header2{
+    float:right;
+}
+
+#hori-nav{
+    clear: both;
+}    
+ul{
+margin:0px;
+list-style-type: none;
+padding:0px;
+    //background-color:black;
+overflow:hidden;
+  }
+li{
+   width:260px;
+   float:left;
+   border-right:2px solid white;
+}
+
+
+a{ 
+
+    text-align:center;
+    display:block;
+    padding:10px;
+    background-color:blue; 
+    color:white; 
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:490px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+#section {
+    width:350px;
+    height:490px;
+    float:left;
+    padding:10px;	 	 
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	
+ 
+}
+
+
+</style>
+</head>
+<body>
+<div id="header">
+     <div id="header1">
+          <h1 >IndiaHealth</h1>
+
+      </div>
+      <div id="header2">
+           <form>
+                <input type=text>
+                <button>search</button>
+            </form>
+       </div>
+</div>
+<div id="hori_nav">
+     <ul >
+          <li><a href="articles.com">articles</a></li>
+          <li><a href="issues.com">issues</a></li>
+          <li><a href="campaigns.com">campaigns</a></li>
+          <li><a href="news.com">news</a><li>
+          <li><a href="C:\Users\Megha\Desktop\website\aboutus.html">"about us"</a></li>
+      </ul>
+</div>
+<div id="nav">
+    First Page<br>
+    Second Page<br>
+    Third Page<br>
+</div>
+<div id="section">
+<p>This is a health website that aims to provide you with the necessary and current infornmation related to health</p>
+</div>
+<div id="footer">
+Copyright © Indiahealth.com
+</div>
+</div>
+
+</body>
+</html>
